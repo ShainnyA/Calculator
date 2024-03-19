@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./calci.png" type="image/x-icon">
+</head>
+<body>
+    <center><h1>Basic Calculator</h1></center>
+    <div class = box>
+        <div class="main">
+            <label style="font-size: 25px;" for="">Number 1</label>
+            <input type="number" name="number1" id="n1"><br>
+            <label style="font-size: 25px;" for="">Number 2</label>
+            <input type="number" name="number2" id="n2"><br>
+            <div id="btn1">
+                <input style="font-size: 25px;" type="submit" value="ADD" onclick="addition()">
+                <input style="font-size: 25px;" type="submit" value="SUB" onclick="subtraction()">
+            </div>
+            <div id="btn2">
+                <input style="font-size: 25px;" type="submit" value="MUL" onclick="multiplication()">
+                <input style="font-size: 25px;" type="submit" value=" DIV " onclick="division()">
+             </div>
+             <div id="resultBox">
+                <label style="font-size: 25px;" id="res">Result</label>
+            </div>    
+        </div>
+    </div>
+    <script src="./design.js"></script>
+</body>
+</html>
+
+    
+</body>
+<script src="script.js"></script>
+</html>
